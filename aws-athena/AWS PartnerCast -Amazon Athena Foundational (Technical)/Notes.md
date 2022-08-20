@@ -1,1 +1,11 @@
-## Notes
+## Partner Cast Agenda
+- Amazon Web Services (AWS) Data & Analytics Stack
+- Lake House Architecture
+- Amazon Athena Overview
+- Connecting with Amazon Athena
+- Amazon Athena Data Source
+- Design Considerations
+- Amazon Athena Key Features
+- Work Groups and Query considerations
+- Cost and Performance considerations
+- Security, Access Control & Monitoring
