@@ -12,6 +12,7 @@ DDL is data definition language. It includes sql commands such as
 - Drop Table
 - Truncate Table
 Notice DDL is SQL commands that are related to altering the table.
+Amazon Athena supports a subset of Data Definition Language (DDL) and Data Manipulation Language (DML) statements, functions, operators, and data types. With some exceptions, Athena DDL is based on HiveQL DDL. Athena DML is based on Presto.
 
 ## Presto db
 Distributed SQL Query Engine
