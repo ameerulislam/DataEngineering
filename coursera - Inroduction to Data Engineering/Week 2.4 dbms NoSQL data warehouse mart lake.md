@@ -50,16 +50,13 @@ RDBMS does not work well with semi-structured and unstructured data and is, ther
 Despite the limitations and the evolution of data in these times of big data, cloud computing, IoT devices, and social media, RDBMS continues to be the predominant technology for working with structured data.
 
 # NoSQL
-NoSQL, which stands for “not only SQL,”
-or sometimes “non SQL” is a non-relational database design that provides flexible schemas
-for the storage and retrieval of data. NoSQL databases have existed for many years
-buthave only recently become more popular in the era of cloud, big data, and high-volume
-web and mobile applications. They are chosen today for their attributes
-around scale, performance,and ease of use. It's important to emphasize that the "No"
-in "NoSQL" is an abbreviation for "not only" and not the actual word "No." NoSQL databases are built for specific data
-models and have flexible schemas that allow programmers to create and manage modern applications. They do not use a traditional row/column/table
-database design with fixed schemas, and typically not use the structured query language (or
-SQL) to query data, although some may support SQL or SQL-like interfaces. NoSQLallows data to be stored in a schema-less
+NoSQL, which stands for “not only SQL,” or sometimes “non SQL” is a non-relational database design that provides flexible schemas for the storage and retrieval of data. NoSQL databases have existed for many years but have only recently become more popular in the era of cloud, big data, and high-volume web and mobile applications. 
+
+They are chosen today for their attributes around scale, performance,and ease of use. It's important to emphasize that the "No" in "NoSQL" is an abbreviation for "not only" and not the actual word "No." 
+
+NoSQL databases are built for specific data models and have flexible schemas that allow programmers to create and manage modern applications. They do not use a traditional row/column/table database design with fixed schemas, and typically not use the structured query language (or SQL) to query data, although some may support SQL or SQL-like interfaces. 
+
+NoSQL allows data to be stored in a schema-less
 or free-form fashion. Any data, be It structured, semi-structured,
 or unstructured,can be stored in any record. Based on the model being used for storing
 data, there are four common types of NoSQL databases: Key-value store, Document-based, Column-based, and graph-based. Key-value store: Data in a key-value database
