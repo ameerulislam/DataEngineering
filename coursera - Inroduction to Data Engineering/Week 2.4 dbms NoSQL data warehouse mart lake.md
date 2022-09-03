@@ -109,21 +109,19 @@ But if you want to process high volumes of transactions, it may not be the best 
 - CosmosDB 
 are some of the more popular graph databases. 
 
-Advantages of NoSQLNoSQL was created in response
-to the limitations of traditional relational database technology. The primary advantage of NoSQL is its ability
-to handle large volumes of structured, semi-structured, and unstructured data. Some of its other advantages include: The ability to run as distributed systemsscaled
-across multiple data centers, which enables them to take advantage of cloud computing
-infrastructure; An efficient and cost-effective scale-out
-architecture that provides additional capacity and performance with the addition of new nodes;
-and Simpler design, better control over availability,
+Advantages of NoSQLNoSQL was created in response to the limitations of traditional relational database technology. The primary advantage of NoSQL is its ability to **handle large volumes of** 
+- structured, 
+- semi-structured, 
+- and unstructured data. 
+
+Some of its other advantages include: 
+- The ability to run as distributed systems scaled across multiple data centers, which enables them to take advantage of cloud computing infrastructure; An efficient and cost-effective scale-out architecture that provides additional capacity and performance with the addition of new nodes; and Simpler design, better control over availability,
 and improved scalability that enables you to be more agile, more flexible, and to iterate
-more quickly To summarizethe key differencesbetween relational
-and non-relational databases: RDBMS schemas rigidly define how all data
-inserted into the database must be typed and composed, whereas NoSQL databases can be schema-agnostic,
-allowing unstructured and semi-structured data to be stored and manipulated. Maintaining high-end, commercial relational
+more quickly 
+
+## To summarize the key differencesbetween relational and non-relational databases: 
+**RDBMS** schemas rigidly define how all data inserted into the database must be typed and composed, whereas **NoSQL databases** can be schema-agnostic, allowing unstructured and semi-structured data to be stored and manipulated. Maintaining high-end, commercial relational
 database management systems is expensive whereas NoSQL databases are specifically designed
 for low-cost commodity hardware Relational databases, unlike most NoSQL, support
-ACID-compliance, which ensures reliability of transactions and crash recovery. RDBMS is a mature and well-documented technology,
-which means the risks are more or less perceivable as compared to NoSQL, which is a relatively
-newer technology. Nonetheless, NoSQL databases are here to stay,
-and are increasingly being used for mission critical applications.
+ACID-compliance, which ensures reliability of transactions and crash recovery. RDBMS is a mature and well-documented technology, which means the risks are more or less perceivable as compared to NoSQL, which is a relatively newer technology. 
+Nonetheless, NoSQL databases are here to stay, and are increasingly being used for mission critical applications.
