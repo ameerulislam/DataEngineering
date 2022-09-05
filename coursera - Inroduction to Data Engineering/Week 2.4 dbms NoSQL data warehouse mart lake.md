@@ -179,15 +179,13 @@ combine inputs from
 The difference also lies in how data is extracted from the source systems, the transformations that need to be applied, and how the data is transported into the mart. 
 ### Dependent data marts
 for example, pull data from an enterprise data warehouse, where data has already been cleaned and transformed. 
-### Independent data marts need to carry out the
-transformation process on the source data since it is coming directly from operational
-systems and external sources. Whatever the type, the purpose of a data mart
-is to: provide users' data that is most relevant
-to them when they need it, accelerate business processes by providing
-efficient response times, provide a cost and time-efficient way in which
-data-driven decisions can be taken, improve end-user response time; and provide secure access and control. A Data Lake is a data repository that can
-store large amounts of structured, semi-structured, and unstructured data in their native format. While a data warehouse stores data that has
-been cleaned, processed, and transformed for a specific need, you do not need to define
+### Independent data marts 
+need to carry out the transformation process on the source data since it is coming directly from operational systems and external sources. Whatever the type, the purpose of a data mart is to: 
+- provide users' data that is most relevant to them when they need it,
+- accelerate business processes by providing efficient response times, provide a cost and time-efficient way in which data-driven decisions can be taken, 
+- improve end-user response time; and provide secure access and control. 
+## A Data Lake 
+is a data repository that can store large amounts of structured, semi-structured, and unstructured data in their native format. While a data warehouse stores data that has been cleaned, processed, and transformed for a specific need, you do not need to define
 the structure and schema of data before loading into the data lake. You do not even need to know all of the use
 cases for which you will ultimately be analyzing the data. A data lake exists as a repository of raw
 data in its native format, straight from the source, to be transformed based on the use
