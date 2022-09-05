@@ -127,45 +127,59 @@ ACID-compliance, which ensures reliability of transactions and crash recovery. R
 Nonetheless, NoSQL databases are here to stay, and are increasingly being used for mission critical applications.
 
 # Data Warehouses, Data Marts, and Data Lakes
-All data mining repositories have a similar
-goal, which is to house data for reporting, analysis, and deriving insights. But their purpose, types of data stored, and
-how data is accessed differs. In this video, we will learn about some of
-the characteristics and applications of data warehouses, data marts, and data lakes. A data warehouse is a central repository of
-data integrated from multiple sources. Data warehouses serve as the single source
-of truth—storing current and historical data that has been cleansed, conformed, and
-categorized. When data gets loaded into the data warehouse,
-it is already modeled and structured for a specific purpose, meaning it's analysis-ready. Traditionally, data warehouses are known to
-store relational data from transactional systems and operational databases such as CRM, ERP,
-HR, and Finance applications. But with the emergence of NoSQL technologies
-and new data sources, non-relational data repositories are also being used for data
-warehousing. Typically, a data warehouse has a three-tier
-architecture: The bottom tier of the architecture includes
-the database servers, which could be relational, non-relational, or both, that extract data
-from different sources. The middle tier of the architecture consists
-of the OLAP Server, a category of software that allows users to process and analyze information
-coming from multiple database servers. And the topmost tier of the architecture includes
-the client front-end layer. This tier includes all the tools and applications
-used for querying, reporting, and analyzing data. In response to the rapid data growth and today's
-sophisticated analytics tools, data warehouses that once resided in on-premise data centers
-are moving to the cloud. Compared to their on-premise versions, some
-of the benefits offered by cloud-based data warehouses include: Lower costs, Limitless storage and compute capabilities, Scale on a pay-as-you-go basis; and Faster disaster recovery. As an organization, you would opt for a data
-warehouse when you have massive amounts of data from your operational systems that need
-to be readily available for reporting and analysis. Some of the popularly used data warehouses
-include Teradata Enterprise Data Warehouse platform, Oracle Exadata, IBM Db2 Warehouse
-on Cloud, IBM Netezza Performance Server, Amazon RedShift, BigQuery by Google Cloudera's
-Enterprise Data Hub, and Snowflake Cloud Data Warehouse. A data mart is a sub-section of the data warehouse,
-built specifically for a particular business function, purpose, or community of users. For example, sales or finance groups in an
-organization accessing data for their quarterly reporting and projections. There are three basic types of data marts—dependent,
-independent, and hybrid data marts. Dependent data marts are a sub-section of
-an enterprise data warehouse. Since a dependent data mart offers analytical
-capabilities for a restricted area of the data warehouse, it also provides isolated
-security and isolated performance. Independent data marts are created from sources
-other than an enterprise data warehouse, such as internal operational systems or external
-data. Hybrid data marts combine inputs from data
-warehouses, operational systems, and external systems. The difference also lies in how data is extracted
-from the source systems, the transformations that need to be applied, and how the data
-is transported into the mart. Dependent data marts, for example, pull data
-from an enterprise data warehouse, where data has already been cleaned and transformed. Independent data marts need to carry out the
+All data mining repositories have a similar goal, which is to house data for reporting, analysis, and deriving insights. 
+But their purpose, types of data stored, and how data is accessed differs. In this video, we will learn about some of the characteristics and applications of data warehouses, data marts, and data lakes. 
+
+## A data warehouse 
+is a central repository of data integrated from multiple sources. Data warehouses serve as the single source of truth—storing current and historical data that has been cleansed, conformed, and categorized. When data gets loaded into the data warehouse,
+it is already modeled and structured for a specific purpose, meaning it's analysis-ready. 
+
+Traditionally, data warehouses are known to store relational data from transactional systems and operational databases such as CRM, ERP, HR, and Finance applications. But with the emergence of NoSQL technologies and new data sources, non-relational data repositories are also being used for data warehousing. Typically, a data warehouse has a **three-tier architecture:** 
+- The bottom tier of the architecture includes the database servers, which could be relational, non-relational, or both, that extract data from different sources. 
+- The middle tier of the architecture consists of the OLAP Server, a category of software that allows users to process and analyze information coming from multiple database servers. 
+- And the top most tier of the architecture includes the client front-end layer. This tier includes all the tools and applications used for querying, reporting, and analyzing data. In response to the rapid data growth and today's sophisticated analytics tools, data warehouses that once resided in on-premise data centers are moving to the cloud. 
+
+Compared to their on-premise versions, some of the benefits offered by cloud-based data warehouses include: 
+- Lower costs, 
+- Limitless storage and 
+- compute capabilities, 
+- Scale on a pay-as-you-go basis; 
+- and Faster disaster recovery. 
+
+As an organization, you would opt for a data warehouse when you have massive amounts of data from your operational systems that need to be readily available for reporting and analysis. Some of the popularly used data warehouses include 
+- Teradata Enterprise 
+- Data Warehouse platform, 
+- Oracle Exadata, 
+- IBM Db2 Warehouse on Cloud, 
+- IBM Netezza Performance Server, 
+- Amazon RedShift, 
+- BigQuery by Google 
+- Cloudera's Enterprise Data Hub, 
+- and Snowflake Cloud Data Warehouse. 
+
+## A data mart 
+is a sub-section of the data warehouse, built specifically for a particular business function, purpose, or community of users. For example, sales or finance groups in an
+organization accessing data for their quarterly reporting and projections. 
+There are three basic types of data marts
+- dependent,
+- independent, 
+- and hybrid data marts. 
+
+### Dependent data marts
+are a sub-section of an enterprise data warehouse. Since a dependent data mart offers analytical capabilities for a restricted area of the data warehouse, it also provides isolated
+security and isolated performance. 
+### Independent data marts 
+are created from sources other than an enterprise data warehouse, such as internal operational systems or external data. 
+### Hybrid data marts 
+combine inputs from 
+- data warehouses, 
+- operational systems, 
+- and external systems. 
+
+The difference also lies in how data is extracted from the source systems, the transformations that need to be applied, and how the data is transported into the mart. 
+### Dependent data marts
+for example, pull data from an enterprise data warehouse, where data has already been cleaned and transformed. 
+### Independent data marts need to carry out the
 transformation process on the source data since it is coming directly from operational
 systems and external sources. Whatever the type, the purpose of a data mart
 is to: provide users' data that is most relevant
