@@ -38,24 +38,30 @@ Now let’s look at a variation of the ETL process—the Extract, Load, and Tran
 In the ELT process, extracted data is first loaded into the target system, and transformations are applied in the target system. The destination system for an ELT pipeline is most likely a data lake, though it can also be a data warehouse. ELT is a relatively new technology powered by cloud technologies.
 
 Why do we need an ELT process? 
-ELT is useful for processing large sets of unstructured and non-relational data. It is ideal for data lakes where transformations
-on the data are applied once the raw data is loaded into the data lake. The ELT process has several advantages. Since the raw data is delivered directly to
-the destination system rather than a staging environment, this shortens the cycle between
-extraction and delivery. ELT paired with a data lake allows you to
-ingest volumes of raw data as immediately as the data becomes available. Compared to the ETL process, ELT affords greater
-flexibility to analysts and data scientists for exploratory data analytics. ELT transforms only that data which is required
-for a particular analysis so it can be leveraged for multiple use cases. In the ETL process, the entire structure of
-the data in the warehouse may need to be modified if it is not suited for a new use case. ELT is more suited to work with Big Data. It’s common to see the terms ETL or ELT
-and data pipelines used interchangeably. And although both move data from source to
-destination, data pipeline is a broader term that encompasses the entire journey of moving
-data from one system to another, of which ETL and ELT may be subsets. Data pipelines can be architected for batch
-processing, for streaming data, and a combination of batch and streaming data. In the case of streaming data, data processing
-or transformation, happens in a continuous flow. This is particularly useful for data that
-needs constant updating, such as data from a sensor monitoring traffic. A data pipeline is a high performing system
-that supports both long-running batch queries and smaller interactive queries. The destination for a data pipeline is typically
-a data lake, although data may also be loaded to different target destinations, such as
-another application or a visualization tool. There are a number of data pipeline solutions
-available, most popular among them being Apache Beam, AirFlow, and DataFlow. In this video, we learned about some of the
-different data movement approaches—the ETL (or Extract, Transfer, and Load process) and
-ELT (or the Extract, Load, and Transform process). We also learned about Data Pipelines, encompassing
-the complete journey of data from one system to another.
+ELT is useful for processing large sets of **unstructured and non-relational data.** It is ideal for data lakes where transformations
+on the data are applied once the raw data is loaded into the data lake. The ELT process has several advantages. 
+
+Since the raw data is delivered directly to the destination system rather than a staging environment, this shortens the cycle between extraction and delivery. **ELT paired with a data lake allows you to ingest volumes of raw data as immediately as the data becomes available.**
+
+Compared to the ETL process, ELT affords greater flexibility to analysts and data scientists for exploratory data analytics. **ELT transforms only that data which is required for a particular analysis so it can be leveraged for multiple use cases.** In the ETL process, the entire structure of the data in the warehouse may need to be modified if it is not suited for a new use case. ELT is more suited to work with Big Data. 
+
+It’s common to see the terms ETL or ELT and data pipelines used interchangeably. And although both move data from source to
+destination, 
+
+## Data pipeline 
+is a broader term that encompasses the entire journey of moving data from one system to another, **of which ETL and ELT may be subsets.** Data pipelines can be architected for 
+- batch processing, 
+- for streaming data, 
+- and a combination of batch and streaming data. 
+In the case of streaming data, data processing or transformation, happens in a continuous flow. This is particularly useful for data that
+needs constant updating, such as data from a sensor monitoring traffic. 
+
+A data pipeline is a high performing system that supports both long-running batch queries and smaller interactive queries. The destination for a data pipeline is typically a data lake, 
+
+although data may also be loaded to different target destinations, such as another application or a visualization tool. There are a number of data pipeline solutions available, most popular among them being 
+- Apache Beam, 
+- AirFlow, and 
+- DataFlow. 
+
+In this video, we learned about some of the different data movement approaches—the ETL (or Extract, Transfer, and Load process) and
+ELT (or the Extract, Load, and Transform process). We also learned about Data Pipelines, encompassing the complete journey of data from one system to another.
