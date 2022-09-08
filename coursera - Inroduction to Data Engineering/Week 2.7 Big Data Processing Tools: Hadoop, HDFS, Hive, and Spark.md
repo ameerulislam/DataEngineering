@@ -24,17 +24,22 @@ allowing parallel access to them. Computations can, therefore, run in parallel o
 
 It also replicates file blocks on different nodes to prevent data loss, making it fault-tolerant. 
 
-Let’s understand this through an example. Consider a file that includes phone numbers for everyone in the United States; the numbers for people with last name starting with A might be stored on server 1, B on server 2, and so on. With Hadoop, pieces of this phonebook would be stored across the cluster. To reconstruct the entire phonebook, your program would need the blocks from every server in the cluster. HDFS also replicates these smaller pieces
-onto two additional servers by default, ensuring availability when a server fails, In addition to higher availability, this offers
-multiple benefits. It allows the Hadoop cluster to break up work
-into smaller chunks and run those jobs on all servers in the cluster for better scalability. Finally, you gain the benefit of data locality,
-which is the process of moving the computation closer to the node on which the data resides. This is critical when working with large data
-sets because it minimizes network congestion and increases throughput. Some of the other benefits that come from
-using HDFS include: Fast recovery from hardware failures, because
-HDFS is built to detect faults and automatically recover. Access to streaming data, because HDFS supports
-high data throughput rates. Accommodation of large data sets, because
-HDFS can scale to hundreds of nodes, or computers, in a single cluster. Portability, because HDFS is portable across
-multiple hardware platforms and compatible with a variety of underlying operating systems. Hive is an open-source data warehouse software
+Let’s understand this through an example. 
+1. Consider a file that includes phone numbers for everyone in the United States; 
+2. the numbers for people with last name starting with A might be stored on server 1, B on server 2, and so on. 
+3. With Hadoop, pieces of this phonebook would be stored across the cluster. 
+4. To reconstruct the entire phonebook, your program would need the blocks from every server in the cluster. 
+5. HDFS also replicates these smaller pieces onto two additional servers by default, ensuring availability when a server fails, 
+6. In addition to higher availability, this offers multiple benefits. 
+    - It allows the Hadoop cluster to break up work into smaller chunks and run those jobs on all servers in the cluster for better scalability
+7. Finally, you gain the benefit of data locality, which is the process of moving the computation closer to the node on which the data resides. 
+8. This is critical when working with large data sets because it minimizes network congestion and increases throughput. 
+9. Some of the other benefits that come from using HDFS include: 
+    - Fast recovery from hardware failures, because HDFS is built to detect faults and automatically recover. 
+    - Access to streaming data, because HDFS supports high data throughput rates. Accommodation of large data sets, because HDFS can scale to hundreds of nodes, or computers, in a single cluster. 
+    - Portability, because HDFS is portable across multiple hardware platforms and compatible with a variety of underlying operating systems
+## Hive 
+is an open-source data warehouse software
 for reading, writing, and managing large data set files that are stored directly in either
 HDFS or other data storage systems such as Apache HBase. Hadoop is intended for long sequential scans
 and, because Hive is based on Hadoop, queries have very high latency—which means Hive
