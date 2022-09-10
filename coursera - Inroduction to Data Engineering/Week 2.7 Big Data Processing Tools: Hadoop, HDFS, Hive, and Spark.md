@@ -39,19 +39,8 @@ Let’s understand this through an example.
     - Access to streaming data, because HDFS supports high data throughput rates. Accommodation of large data sets, because HDFS can scale to hundreds of nodes, or computers, in a single cluster. 
     - Portability, because HDFS is portable across multiple hardware platforms and compatible with a variety of underlying operating systems
 ## Hive 
-is an open-source data warehouse software
-for reading, writing, and managing large data set files that are stored directly in either
-HDFS or other data storage systems such as Apache HBase. Hadoop is intended for long sequential scans
-and, because Hive is based on Hadoop, queries have very high latency—which means Hive
-is less appropriate for applications that need very fast response times. Also, Hive is read-based, and therefore not
-suitable for transaction processing that typically involves a high percentage of write operations. Hive is better suited for data warehousing
-tasks such as ETL, reporting, and data analysis and includes tools that enable easy access
-to data via SQL. This brings us to Spark, a general-purpose
-data processing engine designed to extract and process large volumes of data for a wide
-range of applications, including Interactive Analytics, Streams Processing, Machine Learning,
-Data Integration, and ETL. It takes advantage of in-memory processing
-to significantly increase the speed of computations and spilling to disk only when memory is constrained. Spark has interfaces for major programming
-languages, including Java, Scala, Python, R, and SQL. It can run using its standalone clustering
-technology as well as on top of other infrastructures such as Hadoop. And it can access data in a large variety
-of data sources, including HDFS and Hive, making it highly versatile. The ability to process streaming data fast
-and perform complex analytics in real-time is the key use case for Apache Spark.
+is an open-source data warehouse software for reading, writing, and managing large data set files that are stored directly in either HDFS or other data storage systems such as Apache HBase. Hadoop is intended for long sequential scans and, because Hive is based on Hadoop, queries have very high latency—which means Hive is less appropriate for applications that need very fast response times. Also, Hive is read-based, and therefore **not suitable for transaction processing** that typically involves a high percentage of write operations. Hive is better suited for data warehousing tasks such as ETL, reporting, and data analysis and includes tools that enable easy access to data via SQL. 
+
+## This brings us to Spark, 
+a general-purpose data processing engine designed to extract and process large volumes of data for a wide range of applications, including Interactive Analytics, Streams Processing, Machine Learning, Data Integration, and ETL. It takes advantage of in-memory processing to significantly increase the speed of computations and spilling to disk only when memory is constrained. Spark has interfaces for major programming languages, including Java, Scala, Python, R, and SQL. It can run using its standalone clustering
+technology as well as on top of other infrastructures such as Hadoop. And it can access data in a large variety of data sources, including HDFS and Hive, making it highly versatile. The ability to process streaming data fast and perform complex analytics in real-time is the key use case for Apache Spark.
