@@ -1,4 +1,13 @@
-A data store, or data repository, is a general term used to refer to data that has been collected, organized, and isolated so that it can be used for business operations or mined for reporting and data analysis. A repository can be a database, data warehouse, data mart, big data store, or a data lake. A well-designed data repository is essential for building a system that is scalable and capable of performing during high workloads. In this video, we will look at some of the
+A data store, or data repository, is a general term used to refer to data that has been collected, organized, and isolated so that it can be used for business operations or mined for reporting and data analysis. 
+
+A repository can be a 
+- database, 
+- data warehouse, 
+- data mart, 
+- big data store, or a 
+- data lake. 
+
+A well-designed data repository is essential for building a system that is scalable and capable of performing during high workloads. In this video, we will look at some of the
 primary considerations for designing a data store, such as: 
 - The type of data you want to store Volume of data Intended use of data Storage considerations And Privacy, security, and governance needs of your organization. There are multiple types of databases and selecting the right one is a crucial part of designing. A database is essentially a collection of data designed for the input, storage, search and retrieval, and modification of data. Depending on the type of data, databases can be categorized in two primary ways – relational and non-relational. Relational databases, or RDBMSes, are best used for structured data, which has a well-defined schema and can be organized into a tabular format. Non-relational databases, or NoSQL, are best for semi-structured and unstructured data, that is, schema-less and free-form data. Non-relational databases, based on the type
 of data and how you want to query the data, are of four different types—key-value, document,
