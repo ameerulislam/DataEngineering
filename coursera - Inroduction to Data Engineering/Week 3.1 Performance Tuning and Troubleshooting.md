@@ -1,20 +1,20 @@
-One of the key responsibilities of a data
-engineer is to monitor and optimize systems and data flows for performance and availability. In a data engineering lifecycle, performance
-can apply to a number of areas. In this video, we will look at some of these
-areas. Data pipelines encompass the journey of data
-from source to destination through multiple systems, applications, and processes. A data pipeline typically runs with a combination
-of complex tools and can face several different types of performance threats, such as: Scalability, in the face of increasing data
-sets and workloads Application failures Scheduled jobs not starting as per schedule,
-waiting on dependencies, or some of the tasks not running in the correct sequence or not
-running at all and Tool incompatibilities, since data pipelines
-consist of a variety of tools handling different tasks When you need to benchmark or evaluate performance,
-you need to have a performance metrics. In the case of data pipelines, the performance
-metrics would include: Latency, that is the time it takes for a service
-to fulfill a request Failures, which is the rate at which a service
-fails Resource utilization and utilization patterns And Traffic, or number of user requests received
-in a given period. So, what's the best way to go about troubleshooting
-performance issues in a data pipeline? It depends on the issue, but generically speaking,
-these are some of the steps you will probably take. The first step would be to collect as much
+One of the key responsibilities of a data engineer is to monitor and optimize systems and data flows for performance and availability. 
+In a data engineering lifecycle, performance can apply to a number of areas. In this video, we will look at some of these
+areas. Data pipelines encompass the journey of data from source to destination through multiple systems, applications, and processes. 
+A data pipeline typically runs with a combination of complex tools and can face several different types of performance threats, such as: **Scalability**, in the face of increasing data sets and workloads 
+- Application failures Scheduled jobs not starting as per schedule, 
+- waiting on dependencies, or 
+- some of the tasks not running in the correct sequence or 
+- not running at all and 
+- Tool incompatibilities, 
+
+since data pipelines consist of a variety of tools handling different tasks When you need to benchmark or evaluate performance, you need to have a performance metrics. 
+In the case of data pipelines, the performance metrics would include: 
+- Latency, that is the time it takes for a service to fulfill a request Failures, which is the rate at which a service
+fails Resource utilization and utilization patterns And Traffic, or number of user requests received in a given period.
+ 
+So, what's the best way to go about troubleshooting performance issues in a data pipeline? It depends on the issue, but generically speaking, these are some of the steps you will probably take. 
+The first step would be to collect as much
 information about the incident as possible, most importantly, to ascertain if the observed
 behavior is actually an issue. The issue could have been reported through
 an alerting system, by a user, or flagged during a maintenance check. The next step could be to check if you're
