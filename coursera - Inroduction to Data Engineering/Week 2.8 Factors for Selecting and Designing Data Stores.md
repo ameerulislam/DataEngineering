@@ -9,7 +9,12 @@ A repository can be a
 
 A well-designed data repository is essential for building a system that is scalable and capable of performing during high workloads. In this video, we will look at some of the
 primary considerations for designing a data store, such as: 
-- The type of data you want to store Volume of data Intended use of data Storage considerations And Privacy, security, and governance needs of your organization. 
+- The type of data you want to store 
+- Volume of data 
+- Intended use of data Storage considerations And 
+- Privacy, 
+- security, and 
+- governance needs of your organization. 
 
 There are multiple types of databases and selecting the right one is a crucial part of designing. A database is essentially a collection of data designed for the input, storage, search and retrieval, and modification of data. Depending on the type of data, databases can be categorized in two primary ways 
 - relational and 
