@@ -1,34 +1,35 @@
-cognitiveclass.ai logo
-Data Warehousing Specialist
-Objectives
-After completing this reading, you will be able to:
+### After completing this reading, you will be able to:
 
-Describe the Data Warehousing Specialist role
-Provide opportunity estimates for the Data Warehousing Specialist role
-Indicate alternative job titles for the Data Warehousing Specialist role
-List tasks performed, and skills required for the Data Warehousing Specialist role
-Describe career progression paths for the Data Warehousing Specialist role
-Description of the Data Warehousing Specialist role
-Data Warehousing Specialists design, model, and implement corporate data warehousing activities, program and configure warehouses of databases, and provide support to data warehouse users. The tasks for this specialist role are focussed on data warehousing and form a significant subset of the wider Data Engineering role.
+- Describe the Data Warehousing Specialist role
+- Provide opportunity estimates for the Data Warehousing Specialist role
+- Indicate alternative job titles for the Data Warehousing Specialist role
+- List tasks performed, and skills required for the Data Warehousing Specialist role
+- Describe career progression paths for the Data Warehousing Specialist role
+- Description of the Data Warehousing Specialist role
+- Data Warehousing Specialists design, model, and implement corporate data warehousing activities, program and configure warehouses of databases, and provide support to data warehouse users. The tasks for this specialist role are focussed on data warehousing and form a significant subset of the wider Data Engineering role.
 
-Opportunity estimates for the Data Warehousing Specialist role
-According to careeronestop.org, an organization sponsored by the U.S. Department of Labour, the future is bright for Data Warehouse Specialists and very similar or related roles, such as Data Architects and Database Administrators. The expected growth rate of opportunities in these fields is higher than the average, and is expected to average about 8 to 10 percent per year over the next decade. Approximately 13,900 openings are expected to emerge each year in the U.S. alone.
+### Opportunity estimates for the Data Warehousing Specialist role
+According to careeronestop.org, an organization sponsored by the U.S. Department of Labour, the future is bright for Data Warehouse Specialists and very similar or related roles, such as 
+- Data Architects and 
+- Database Administrators. 
+The expected growth rate of opportunities in these fields is higher than the average, and is expected to average about 8 to 10 percent per year over the next decade. Approximately 13,900 openings are expected to emerge each year in the U.S. alone.
 
 According to salary.com, the median salary for a Data Warehouse Specialist in the US is $110,168.
 
-Data Warehousing Specialist alternative job titles
+### Data Warehousing Specialist alternative job titles
 Just like the role of Data Engineer, the Data Warehousing Specialist role is quite fluid and can vary considerably. In fact, the Data Warehousing Specialist is a particluar kind of Data Engineer, more tightly focused on the data warehousing aspects of the broader discipline. Accordingly, searching online job postings for this particular role returns many other closely related positions, including:
 
-Data Warehouse Specialist
-Data Warehouse Engineer
-Data Warehouse Solution Architect
-Data Warehousing/ETL Solution Specialist
-Data Warehouse Architect
-Data Architect, Data Warehousing & MPP
-Data Warehouse Analyst
-Data Warehouse Administrator
-Data Warehousing Development Specialist
-Tasks performed by Data Warehousing Specialists
+1. Data Warehouse Specialist
+2. Data Warehouse Engineer
+3. Data Warehouse Solution Architect
+4. Data Warehousing/ETL Solution Specialist
+5. Data Warehouse Architect
+6. Data Architect, Data Warehousing & MPP
+7. Data Warehouse Analyst
+8. Data Warehouse Administrator
+9. Data Warehousing Development Specialist
+
+### Tasks performed by Data Warehousing Specialists
 As a specialization within the broader field of Data Engineering, Data Warehousing Specialists may be responsible for many kinds of tasks. These tasks may include any of the following:
 
 Developing processes, procedures, and software applications for enterprise data management
